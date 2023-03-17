@@ -16,3 +16,4 @@ class Movie(models.Model):
     daily_rate = models.FloatField()
     genre = models.ForeignKey(Genre, on_delete=models.CASCADE)
     date_created = models.DateTimeField(default=timezone.now)
+#COMENT 1
